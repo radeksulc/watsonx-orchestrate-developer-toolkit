@@ -12,7 +12,7 @@ class ToolName(str, Enum):
     web_search_duckduckgo = "web_search_duckduckgo"
     news_search_duckduckgo = "news_search_duckduckgo"
 
-DEFAULT_MODEL=ModelName.mistral_large
+DEFAULT_MODEL=ModelName.gpt_4_o_mini
 
 class Function(BaseModel):
     arguments: Dict[str, Any]
